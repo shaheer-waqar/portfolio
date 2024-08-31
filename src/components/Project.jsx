@@ -24,7 +24,7 @@ function Project() {
   return (
     <div className='px-2 relativ'>
       <div>
-        <h1 className='text-3xl text-center font-semibold text-white py-10 sticky top-0'>Latest Projects</h1>
+        <h1 className='text-3xl text-center font-semibold text-white py-10 pt-20 '>Latest <span className='text-gray-500'>Projects</span></h1>
       </div>
       <div  className='grid grid-cols-1 md:px-2 sm:grid-cols-2 m-auto text-white gap-5'>
         {
@@ -56,12 +56,6 @@ function Project() {
             )
           })
         }
-        <h1>Hello </h1>
-        <h1>Hello </h1>
-        <h1>Hello </h1>
-        <h1>Hello </h1>
-        <h1>Hello </h1>
-
       </div>
     </div>
   )

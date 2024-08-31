@@ -5,6 +5,8 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Project from "./components/Project";
 import Navbar from "./components/Navbar";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 // Define custom components
 
@@ -24,6 +26,10 @@ const App = () => {
         <Element name="projects" id="project" className="section">
           <Project />
         </Element>
+        <Element name="contact" id="project" className="">
+          <Contact />
+        </Element>
+        <Footer/>
     </div>
   );
 };
