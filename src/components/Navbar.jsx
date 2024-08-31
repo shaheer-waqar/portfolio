@@ -70,12 +70,11 @@ function Navbar() {
       </motion.div>
 
       <div className="">
-        <motion.ul className={`flex md:w-auto md:max-w-auto md:duration-0 md:px-0 md:py-0 md:bg-transparent md:flex-row md:ap-4
-         md:relative md:h-auto md:border-0 md:top-0 md:shadow-none
-        fixed  w-full  h-[200px] left-0 bg-zinc-900  top-12 shadow-2xl  border-t-[1px] border-zinc-800 gap-2 flex-col md:left-0
-        px-2 py-5 ${showMenu ? "flex" : "hidden"}
-        
-        `}
+        <motion.ul   className={`flex 
+    fixed w-full h-[200px] left-0 bg-zinc-900 top-12 shadow-2xl border-t-[1px] border-zinc-800 gap-2 flex-col 
+    px-2 py-5 ${showMenu ? "flex" : "hidden"}
+    md:w-auto md:max-w-auto md:px-0 md:py-0 md:bg-transparent md:flex-row md:relative md:h-auto md:border-0 md:top-0 md:shadow-none
+    md:!flex`}
          variants={navVarients} >
           {
             navItems.map((e,i)=>{
