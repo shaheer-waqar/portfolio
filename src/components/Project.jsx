@@ -22,7 +22,7 @@ function Project() {
 
   
   return (
-    <div className='px-2 relativ'>
+    <div className='px-2 relative'>
       <div>
         <h1 className='text-3xl text-center font-semibold text-white py-10 pt-20 '>Latest <span className='text-gray-500'>Projects</span></h1>
       </div>
@@ -31,7 +31,7 @@ function Project() {
           projectData.map((e,i)=>{
             return(
         <motion.a href={e.linK} target='-blank' className='flex flex-col gap-2 group relative' key={e.title}
-        initial={{y:100,opacity:0}} 
+          initial={{y:100,opacity:0}} 
           whileInView={{y:0,opacity:1}}
           transition={{duration:1,}}
         >

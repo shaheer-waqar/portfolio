@@ -19,8 +19,8 @@ const aboutPicture={
 }
 function About() {
   return (
-    <div className="text-white ">
-      <h1 className="text-center text-3xl font-semibold py-10">About <span className="text-gray-400">Me</span></h1>
+    <div className="text-white">
+      <h1 className="text-center text-3xl font-semibold py-14">About <span className="text-gray-400">Me</span></h1>
       <div className="flex  flex-wrap  overflow-hidden gap-y-3 px-2">
         <motion.div className="w-full md:w-1/2"
         initial={{x:-100,opacity:0}}
@@ -37,7 +37,7 @@ function About() {
           whileInView={{x:0,opacity:1}}
           transition={{duration:.5}}
            className="w-full md:w-1/2 flex justify-center">
-            <h1 className="text-white max-w-[600px] ">
+            <h1 className="text-white max-w-[600px] md:px-2">
               I am Pasionate Front-end Develpoper with knack for crafting Web
               applications. I bring a solid foundation in web development
               technologies, along with a strong desire to learn more and grow in the

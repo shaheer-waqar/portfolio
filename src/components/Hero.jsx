@@ -1,7 +1,7 @@
 import React from "react";
 import { delay, motion } from "framer-motion";
-import profileImg from "../assets/profile1.jpg";
-
+import profileImg from "../assets/git.jpg";
+import resume from "../assets/ruseme.pdf"
 const ImgAnimation = {
   animate: {
     y: [10,-10], // increased distance to make the effect more noticeable
@@ -11,8 +11,7 @@ const ImgAnimation = {
       ease: "easeInOut",
       repeatType: "reverse",
       yoyo: Infinity,
-      // smoothens the animation
-      // this creates the yoyo effect
+
     },
   },
 };
@@ -50,7 +49,7 @@ function Hero() {
           
           "
           >
-            <a href="#" className="relative z-[10]">Download CV</a>
+            <a href={resume} download={true} className="relative z-[10]">Download CV</a>
           </motion.button>
         </motion.div>
         <div >

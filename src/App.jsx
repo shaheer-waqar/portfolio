@@ -19,11 +19,11 @@ const App = () => {
           <Hero />
         </Element>
 
-        <Element name="about" id="about" className="section">
+        <Element name="about" id="about">
           <About />
         </Element>
 
-        <Element name="projects" id="project" className="section">
+        <Element name="projects" id="project">
           <Project />
         </Element>
         <Element name="contact" id="project" className="">

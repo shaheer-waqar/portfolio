@@ -19,9 +19,10 @@ const contactVarient = {
 function Contact() {
   return (
     <div 
-     className='w-full pt-14 px-2'>
-        <motion.div variants={contactVarient} initial="initial" whileInView="animate"
-        className='flex flex-col max-w-[500px] m-auto gap-2'>
+     className='w-full h-[650px] flex py-10 flex-col gap-5 items-center  px-2 '>
+        <h1 className='text-3xl text-center font-semibold text-white py-10 pt-20 '>Contact <span className='text-gray-500'>Me</span> </h1>
+        <motion.div variants={contactVarient} initial="initail" whileInView="animate"
+        className='flex flex-col w-full max-w-[500px]  gap-2'>
             <motion.h1 variants={contactVarient} className='text-white text-xl font-semibold py-1'>Get In Touch</motion.h1>
             <motion.div variants={contactVarient} className='w-full'>
                 <input className='w-full px-2 py-2 bg-neutral-800 rounded-sm placeholder:text-zinc-600 text-white' type="text" placeholder='Name' />
